@@ -405,6 +405,12 @@ footer > p {
         font-size: 12px;
     }
 
+    #bg-container {
+        background: #1D1B36;
+        width: 100vw;
+        height: 110vh;
+    }
+
     header > nav {
         display: none;
     }
@@ -425,7 +431,7 @@ footer > p {
     }
 
     #parceiros {
-        height: 150vh;
+        height: 230vh;
     }
 
     #parceiros > div {
@@ -437,7 +443,7 @@ footer > p {
     }
 
     #sobre {
-        height: 150vh;
+        height: 220vh;
         background-color: #1D1B36;
         display: flex;
         flex-direction: column;
@@ -459,6 +465,7 @@ footer > p {
     
     #sobre-segunda-div {
         width: 100%;
+        padding: 20px 50px 50px 50px;
     }
     
     #sobre-segunda-div > p{
@@ -473,9 +480,10 @@ footer > p {
     #sobre-segunda-div > div > h2 {
         color: white;
         font-size: 3rem;
-        line-height: 60.73px;
+        line-height: 40.73px;
         font-weight: 700;
         margin: 15px 0;
+
     }
     
     #sobre-segunda-div > div > p {
@@ -483,7 +491,7 @@ footer > p {
         font-size: 1rem;
         line-height: 26px;
         font-weight: 400;
-        margin-top: 25px;
+        margin-top: 20px;
     
     }
     
@@ -492,7 +500,7 @@ footer > p {
 
     #mais {
         display: flex;
-        height: 360vh;
+        height: 435vh;
         flex-direction: column;
     }
 
@@ -512,9 +520,25 @@ footer > p {
     #info {
         display: flex;
         flex-direction: column;
+        height: 120vh;
     }
 
     #info > div > img {
         display: none;
+    }
+
+    #info > div >  a {
+        font-size: 1.1rem;
+        color: #E1FFA8;
+        border: 1.5px solid #E1FFA8;
+        border-radius: 64px;
+        display: flex;
+        align-items: center;
+        width: 180%;
+        padding: 10px 0;
+        gap: 5px;
+        justify-content: center;
+        white-space: nowrap;
+        
     }
 }
