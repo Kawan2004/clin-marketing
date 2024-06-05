@@ -426,12 +426,13 @@ footer > p {
         height: 50%;
     }
 
+
     #main-container-2 {
         display: none;
     }
 
     #parceiros {
-        height: 230vh;
+        height: 140vh;
     }
 
     #parceiros > div {
@@ -443,7 +444,7 @@ footer > p {
     }
 
     #sobre {
-        height: 220vh;
+        height: 150vh;
         background-color: #1D1B36;
         display: flex;
         flex-direction: column;
@@ -500,7 +501,7 @@ footer > p {
 
     #mais {
         display: flex;
-        height: 435vh;
+        height: 270vh;
         flex-direction: column;
     }
 
@@ -520,7 +521,7 @@ footer > p {
     #info {
         display: flex;
         flex-direction: column;
-        height: 120vh;
+        height: 70vh;
     }
 
     #info > div > img {
